@@ -1,0 +1,12 @@
+name: LiberEffects
+main: net.libercraft.libereffects.LiberEffects
+version: 1.0
+depend: [LiberCore]
+commands:
+  eff:
+    description: Create an effect at your current location in the direction you are facing
+    usage: /eff <effect>
+    permission: libercore.owners
+  quality:
+    description: Set the quality of particles used by Clans and Spells. Options are low, medium, high
+    usage: /quality <option>
